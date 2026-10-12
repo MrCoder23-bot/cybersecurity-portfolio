@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cybersecurity and penetration testing portfolio showcasing security labs, networking, Linux, Python, and ethical hacking projects.">
+  <title>Michael Shika | Cybersecurity Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Michael Shika home">
+      <span class="brand-mark">M<span>.</span></span>
+      <span>MICHAEL SHIKA <small>CYBERSECURITY PORTFOLIO</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#journey">Journey</a>
+      <a class="nav-contact" href="#contact">Let's connect <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="availability"><span class="pulse"></span> LEARNING · BUILDING · DOCUMENTING</div>
+        <p class="eyebrow">ASPIRING PENETRATION TESTER <span class="line"></span></p>
+        <h1>Securing systems.<br><span class="accent-text">One layer at a time.</span></h1>
+        <p class="hero-intro">I'm Michael — an aspiring cybersecurity professional building practical skills in networking, Linux, Python, and ethical security testing.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+          <a class="button button-quiet" href="#contact">Get in touch <span>↗</span></a>
+        </div>
+        <div class="hero-footnote"><span class="mono">GH</span> Based in Ghana <span class="dot-separator">/</span> Open to learning opportunities</div>
+      </div>
+
+      <div class="terminal-card" aria-label="Decorative terminal illustration">
+        <div class="terminal-top">
+          <div class="window-dots"><i></i><i></i><i></i></div>
+          <span>michael@security-lab:~</span>
+          <span class="terminal-lock">⌑</span>
+        </div>
+        <div class="terminal-body">
+          <p><span class="terminal-green">michael@lab</span>:<span class="terminal-blue">~</span>$ whoami</p>
+          <p class="terminal-output">aspiring_security_professional</p>
+          <p><span class="terminal-green">michael@lab</span>:<span class="terminal-blue">~</span>$ cat focus.txt</p>
+          <p class="terminal-output">[+] Networking fundamentals</p>
+          <p class="terminal-output">[+] Linux & command line</p>
+          <p class="terminal-output">[+] Python scripting</p>
+          <p class="terminal-output">[+] Ethical security testing</p>
+          <p><span class="terminal-green">michael@lab</span>:<span class="terminal-blue">~</span>$ <span class="cursor"></span></p>
+        </div>
+        <div class="terminal-bottom"><span><span class="status-dot"></span> LAB MODE</span><span>AUTHORIZED SYSTEMS ONLY</span></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section-wrap section-block" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">01 / THE PERSON BEHIND THE TERMINAL</p>
+        <h2>Curiosity with a <span class="accent-text">purpose.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-main">
+          <p class="large-copy">I’m at the beginning of my cybersecurity journey, focused on understanding how systems work, how vulnerabilities happen, and how they can be responsibly prevented.</p>
+          <p>I believe strong security starts with strong fundamentals. I'm developing my knowledge through structured study, hands-on practice in safe lab environments, and documenting what I learn so others can follow my progress.</p>
+          <p>This portfolio is a living record of that journey — built on curiosity, consistency, and ethical practice.</p>
+        </div>
+        <div class="principles">
+          <div class="principle"><span class="principle-number">01</span><div><h3>Learn the fundamentals</h3><p>Understand networks, operating systems, and web technologies.</p></div></div>
+          <div class="principle"><span class="principle-number">02</span><div><h3>Practice responsibly</h3><p>Use owned systems, training labs, or targets with explicit permission.</p></div></div>
+          <div class="principle"><span class="principle-number">03</span><div><h3>Document the process</h3><p>Share clear notes, lessons learned, and remediation ideas.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">02 / MY TOOLKIT</p>
+        <h2>Building skills, <span class="accent-text">not just a list.</span></h2>
+        <p class="section-subtitle">These are learning areas to develop and demonstrate with real examples. Update each item as your experience grows.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-icon">⌘</div><h3>Networking</h3><p>TCP/IP, subnetting, DNS, ports, routing, and network troubleshooting.</p><div class="skill-tags"><span>TCP/IP</span><span>DNS</span><span>Wireshark</span></div></article>
+        <article class="skill-card"><div class="skill-icon">$_</div><h3>Linux</h3><p>Command line, files and permissions, processes, users, and system basics.</p><div class="skill-tags"><span>CLI</span><span>Permissions</span><span>Kali Linux</span></div></article>
+        <article class="skill-card"><div class="skill-icon">{ }</div><h3>Programming</h3><p>Learning Python to automate small tasks and understand security concepts.</p><div class="skill-tags"><span>Python</span><span>Git</span><span>Debugging</span></div></article>
+        <article class="skill-card"><div class="skill-icon">⌕</div><h3>Web Security</h3><p>HTTP basics, authentication, input validation, and common web risks.</p><div class="skill-tags"><span>HTTP</span><span>OWASP</span><span>Burp Suite</span></div></article>
+      </div>
+      <p class="honesty-note"><span>↳</span> Tools and technologies listed here are learning goals, not claims of professional proficiency. Keep only the items you can explain and demonstrate.</p>
+    </section>
+
+    <section class="projects-section section-block" id="projects">
+      <div class="section-wrap">
+        <div class="section-heading heading-row">
+          <div><p class="eyebrow">03 / SELECTED WORK</p><h2>Practice that becomes <span class="accent-text">proof.</span></h2></div>
+          <span class="project-count">PROJECTS / 03</span>
+        </div>
+        <p class="section-subtitle projects-intro">Start with small, well-documented projects. Replace these starter cards with your completed work and repository links.</p>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-visual visual-network"><div class="network-node n1">PC</div><div class="network-node n2">DNS</div><div class="network-node n3">WEB</div><div class="network-node n4">LAB</div><div class="network-lines"></div><span class="visual-label">NETWORK MAP / 001</span></div>
+            <div class="project-content"><div class="project-meta"><span>NETWORKING</span><span class="project-status">PLANNED</span></div><h3>Network Fundamentals Lab</h3><p>Build a small lab to explore IP addressing, DNS lookups, ports, and basic packet analysis. Document commands and observations.</p><div class="project-tags"><span>TCP/IP</span><span>Wireshark</span><span>Documentation</span></div><a class="text-link project-link" href="#contact" data-project="Network Fundamentals Lab">Add repository link <span>↗</span></a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-code"><div class="code-lines"><span>01</span> import socket<br><span>02</span> target = "127.0.0.1"<br><span>03</span> # local lab only<br><span>04</span> print("Learning safely")<br><span>05</span> <b>▍</b></div><span class="visual-label">PYTHON / 002</span></div>
+            <div class="project-content"><div class="project-meta"><span>PYTHON</span><span class="project-status">PLANNED</span></div><h3>Security Learning Scripts</h3><p>Create beginner-friendly Python scripts for safe local tasks, with comments, example output, and clear usage notes.</p><div class="project-tags"><span>Python</span><span>Automation</span><span>GitHub</span></div><a class="text-link project-link" href="#contact" data-project="Security Learning Scripts">Add repository link <span>↗</span></a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-report"><div class="report-sheet"><span class="report-kicker">LAB REPORT / 003</span><div class="report-line long"></div><div class="report-line medium"></div><div class="report-risk"><span></span><span></span><span></span></div><div class="report-line long"></div><div class="report-line short"></div><div class="report-footer">FINDINGS · IMPACT · FIX</div></div><span class="visual-label">WEB SECURITY / 003</span></div>
+            <div class="project-content"><div class="project-meta"><span>WEB SECURITY</span><span class="project-status">PLANNED</span></div><h3>Vulnerability Write-up</h3><p>Practice explaining a deliberately vulnerable training app finding: impact, evidence, reproduction steps, and recommended remediation.</p><div class="project-tags"><span>OWASP</span><span>Write-up</span><span>Remediation</span></div><a class="text-link project-link" href="#contact" data-project="Vulnerability Write-up">Add report link <span>↗</span></a></div>
+          </article>
+        </div>
+        <p class="project-disclaimer">All security testing should be limited to systems you own or have explicit permission to assess.</p>
+      </div>
+    </section>
+
+    <section class="section-wrap section-block" id="journey">
+      <div class="section-heading">
+        <p class="eyebrow">04 / CONTINUOUS IMPROVEMENT</p>
+        <h2>The journey is <span class="accent-text">the achievement.</span></h2>
+      </div>
+      <div class="journey-list">
+        <div class="journey-item"><div class="journey-marker">01</div><div><span class="journey-state">CURRENT FOCUS</span><h3>Networking & operating systems</h3><p>Strengthen TCP/IP, subnetting, Linux commands, permissions, and troubleshooting.</p></div><span class="journey-date">IN PROGRESS</span></div>
+        <div class="journey-item"><div class="journey-marker">02</div><div><span class="journey-state">NEXT STEP</span><h3>Python & Git fundamentals</h3><p>Write small scripts, learn version control, and publish clear project documentation.</p></div><span class="journey-date">UP NEXT</span></div>
+        <div class="journey-item"><div class="journey-marker">03</div><div><span class="journey-state">FUTURE GOAL</span><h3>Web security & authorized testing</h3><p>Practice in beginner labs, learn methodology, and write responsible findings with fixes.</p></div><span class="journey-date">PLANNED</span></div>
+      </div>
+    </section>
+
+    <section class="contact-section section-block" id="contact">
+      <div class="section-wrap contact-inner">
+        <p class="eyebrow">05 / OPEN TO CONNECTIONS</p>
+        <h2>Good security starts<br>with <span class="accent-text">good conversations.</span></h2>
+        <p class="contact-copy">Interested in cybersecurity, learning together, or sharing useful resources? Connect with me as I keep building.</p>
+        <div class="contact-actions">
+          <a class="button button-primary" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">Connect on LinkedIn <span>↗</span></a>
+          <a class="button button-outline" href="https://github.com/" target="_blank" rel="noreferrer">Explore GitHub <span>↗</span></a>
+        </div>
+        <p class="contact-edit-note">Replace the placeholder links with your real LinkedIn and GitHub profile URLs before publishing.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-brand" href="#home">M<span>.</span> / MICHAEL SHIKA</a>
+    <p>Built with curiosity, HTML, CSS & JavaScript.</p>
+    <a href="#home" class="back-top">BACK TO TOP ↑</a>
+    <p class="copyright">© <span id="year"></span> Michael Shika. Keep learning. Stay ethical.</p>
+  </footer>
+</body>
+</html>
